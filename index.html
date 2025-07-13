@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="VFitClub - A sleek fitness website designed with HTML5, CSS3, and Javascript, featuring grid and flexbox layout techniques and stylish animations." />
+
+        <title>VFitClub - Elevate Your Fitness Journey</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon.png" />
+        <link rel="stylesheet" href="main.css" media="screen" />
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container">
+                <nav class="header-nav" aria-label="navigation">
+                    <div class="logo-content">
+                        <img src="image/logo.png" alt="Logo" class="nav-icon" width="70" height=60 />
+                        <div class="logo">VFitClub</div>
+                    </div>
+                    <img src="image/nav-icon.svg" alt="navigation icon" class="nav-hamburger" width="30" height="30" />
+                    <ul>
+                        <li>
+                            <a href="#aboutus">About</a>
+                        </li>
+                        <li>
+                            <a href="#memberships">Memberships</a>
+                        </li>
+                        <li>
+                            <a href="#ourteam">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Join Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- MAIN SECTION -->
+            <section class="section-hero" id="section-hero">
+                <div class="container hero-box">
+                    <div class="hero-image-content">
+                        <h1 class="heading">Unlock Your Best Self at VFitClub. Embrace Wellness, Transform Your Life</h1>
+                        <p class="description">Experience the Ultimate Fitness Journey with Functional Training, Plyometric Boxes, Aerobics Classes, TRX, and More</p>
+                        <div class="hero-box-buttons"><button>Discover Classes</button><button>See Our Offerings</button></div>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="section-aboutus" id="aboutus">
+                <div class="container aboutus">
+                    <div class="section-aboutus-info" data-aos="fade-down">
+                        <h2>About VFitClub</h2>
+                        <p>
+                            At VFitClub, we're not just a fitness center; we're a community dedicated to transforming lives through health and wellness. Founded with a passion for helping individuals
+                            achieve their fitness goals, our mission is to empower, inspire, and support you on your journey to a healthier, happier life.
+                        </p>
+                        <h2>Our Vision</h2>
+                        <p>
+                            Our vision is to be your trusted partner in achieving optimal well-being. We believe that a strong and healthy body is the foundation for a successful, fulfilling life.
+                            Whether you're new to fitness or a seasoned athlete, we're here to guide you on your path to success.
+                        </p>
+                    </div>
+                    <div class="section-aboutus-images">
+                        <figure class="about-box__image">
+                            <img src="image/about-image1.jpg" alt="navigation icon" class="nav-hamburger" width=320" height="190" style="--i: 0" data-aos="fade-down-right" />
+                            <img src="image/about-image2.jpg" alt="navigation icon" class="nav-hamburger" width="320" height="190" style="--i: 1" data-aos="fade-down" />
+                            <img src="image/about-image3.jpg" alt="navigation icon" class="nav-hamburger" width="320" height="190" style="--i: 2" data-aos="fade-down-left" />
+                        </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-ourteam" id="ourteam">
+                <div class="container ourteam" data-aos="fade-down">
+                    <h2 class="title">Our Team</h2>
+                    <div class="team-members">
+                        <div class="team-member">
+                            <img src="image/JoeBloggs.jpg" alt="Logo" class="member-logo" />
+                            <div class="team-memmber-info">
+                                <div class="member-name">Joe Bloggs</div>
+                                <div class="member-desg">Weight Lifting Coach</div>
+                                <div class="member-desc">Specializes in sculpting strength and muscle with precision</div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <img src="image/CharlieWatson.jpg" alt="Logo" class="nav-icon" />
+                            <div class="team-memmber-info">
+                                <div class="member-name">Charlie Watson</div>
+                                <div class="member-desg">MMA Coach</div>
+                                <div class="member-desc">Hones combat skills and self-defense with expertise</div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <img src="image/RachelDanielle.jpg" alt="Logo" class="nav-icon" />
+                            <div class="team-memmber-info">
+                                <div class="member-name">Rachel Danielle</div>
+                                <div class="member-desg">Yoga Instructor</div>
+                                <div class="member-desc">Guides you to inner peace and flexibility through mindful yoga practice</div>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <img src="image/TaylorMelé.jpg" alt="Logo" class="nav-icon" />
+                            <div class="team-memmber-info">
+                                <div class="member-name">Taylor Melé</div>
+                                <div class="member-desg">Personal Trainer</div>
+                                <div class="member-desc">Your path to achieving fitness goals, one personalized session at a time</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-memberships" id="memberships">
+                <div class="container memberships">
+                    <h2 class="title">Memberships</h2>
+                    <div class="classes">
+                        <div class="class" data-aos="flip-left">
+                            <h2 class="class-name">3 Months</h2>
+                            <div class="class-price">$100/MON USD</div>
+                            <hr />
+                            <div class="class-name">
+                                <ul>
+                                    <li>5 Classes</li>
+                                    <li>5 In Personal Training Sessions</li>
+                                    <li>Full Gym & Facilities Access</li>
+                                    <li>Gym Tour & Training Instruction</li>
+                                </ul>
+                            </div>
+                            <a>Get Started</a>
+                        </div>
+                        <div class="class" data-aos="flip-up">
+                            <h2 class="class-name">6 Months</h2>
+                            <div class="class-price">$75/MON USD</div>
+                            <hr />
+                            <div class="class-name">
+                                <ul>
+                                    <li>10 Classes</li>
+                                    <li>10 In Personal Training Sessions</li>
+                                    <li>Full Gym & Facilities Access</li>
+                                    <li>Boxing Ring, Free Events</li>
+                                    <li>Gym Tour & Training Instruction</li>
+                                </ul>
+                            </div>
+                            <a>Get Started</a>
+                        </div>
+                        <div class="class" data-aos="flip-right">
+                            <h2 class="class-name">1 Whole Year</h2>
+                            <div class="class-price">$50/MON USD</div>
+                            <hr />
+                            <div class="class-name">
+                                <ul>
+                                    <li>10 Classes</li>
+                                    <li>15 In Personal Training Sessions</li>
+                                    <li>Full Gym & Facilities Access</li>
+                                    <li>Boxing Ring, Free Events</li>
+                                    <li>Gym Tour & Training Instruction</li>
+                                </ul>
+                            </div>
+                            <a>Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-reviews" id="reviews">
+                <div class="container reviews">
+                    <h2 class="title">Customer Reviews</h2>
+                    <div class="review">
+                        <div class="review-info">
+                            <div class="review-image" data-aos="image-rotateIn"><img src="image/review1.jpeg" alt="Logo" class="review-icon" width="130" height="130" /></div>
+                            <div class="review-details" data-aos="fade-down">
+                                <div>Samantha R</div>
+                                <div>
+                                    I can't say enough good things about VFitClub. The trainers are exceptional, and the community is so welcoming. I've made incredible progress in my fitness journey
+                                    here
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <div class="review-image" data-aos="image-rotateIn"><img src="image/review2.jpeg" alt="Logo" class="review-icon" width="130" height="130" /></div>
+                            <div class="review-details" data-aos="fade-down">
+                                <div>Vinay U</div>
+                                <div>Charlie, the MMA coach, is a true expert. He pushes you to your limits while ensuring safety. I've learned so much and gained newfound confidence</div>
+                            </div>
+                        </div>
+                        <div class="review-info">
+                            <div class="review-image" data-aos="image-rotateIn"><img src="image/review3.jpeg" alt="Logo" class="review-icon" width="130" height="130" /></div>
+                            <div class="review-details" data-aos="fade-down">
+                                <div>Michael S</div>
+                                <div>
+                                    VFitClub is not just a gym; it's a lifestyle. The facility is top-notch, and the trainers are top-level. I've never felt more motivated and supported in my fitness
+                                    journey
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-contact" id="contact">
+                <div class="container contact">
+                    <div class="contactus">
+                        <form>
+                            <h2 class="title">GET IN TOUCH</h2>
+                            <div class="class-input"><input type="text" placeholder="Name" /></div>
+                            <div class="class-input"><input type="email" placeholder="Email" /></div>
+
+                            <div class="class-input"><input type="number" placeholder="Number" /></div>
+                            <div class="class-input"><textarea placeholder="Message"></textarea></div>
+                            <button>SEND</button>
+                        </form>
+                    </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.882633670527!2d-77.03822868422614!3d38.914011108427125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7e5bf2241b3%3A0xeee16e72747760aa!2sU%20Street%2FAfrican-Amer%20Civil%20War%20Memorial%2FCardozo!5e0!3m2!1sen!2sin!4v1699174834310!5m2!1sen!2sin"
+                            allowfullscreen=""
+                            loading="lazy"
+                            style="border: 0"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="section-footer" id="footer">
+            <div class="footer-box container">
+                <div class="contact-details">
+                    <h2>VFitClub</h2>
+                    <div class="contact-company-address">
+                        123 Wellness Way Activeville,<br />
+                        Fitnessland 56789<br />United States
+                    </div>
+                    <div class="contact-social-links">
+                        <img src="image/whatsapp.svg" alt="navigation icon" class="nav-hamburger" width=35" height="35" /> <img src="image/facebook.svg" alt="navigation icon" class="nav-hamburger"
+                        width=35" height="35" /> <img src="image/instagram.svg" alt="navigation icon" class="nav-hamburger" width=35" height="35" /> <img src="image/twitter.svg" alt="navigation icon"
+                        class="nav-hamburger" width=35" height="35" />
+                    </div>
+                </div>
+                <nav class="footer-nav" aria-label="navigation">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#aboutus">About</a>
+                        </li>
+                        <li>
+                            <a href="#memberships">Memberships</a>
+                        </li>
+                        <li>
+                            <a href="#ourteam">Our Team</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact </a>
+                        </li>
+                        <li>
+                            <a href="#reviews">Reviews</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="newsletter">
+                    <h3>News Letter</h3>
+                    <input type="email" placeholder="email@domain.com" /><button>&#10003;</button>
+                </div>
+            </div>
+            <hr />
+            <div class="container copyrights">
+                <div>Copyright © by Vinay</div>
+                <a href="https://github.com/uvinay5/responsive-gym-web/" target="_blank"><img src="image/github.svg" alt="navigation icon" class="nav-hamburger" width="50" height="50" /></a>
+            </div>
+        </footer>
+        <div id="offerModal" class="offerModal">
+            <div class="modal-content">
+                <h2>Got hiit</h2>
+                <p>Experience our new high-intensity interval
+                    training facility to boost endurance and agility!</p>
+                    <h1>70%OFF FOR NEW GYM MEMBERS</h1>
+                    <div><button>Unlock 70% Off</button><button class="close-button">Maybe Later</button></div>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                offset: 120,
+                delay: 50,
+                duration: 400,
+                once: true,
+            });
+        </script>
+    </body>
+</html>
